@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dogs!</title>
+
+	<meta name="viewport" content="width=device-width" initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<body>
+	<div class="wrapper">
+		<!-- Header area -->
+	    <div class="jumbotron jumbotron-fluid header">
+	    	<div class="container">
+			    <h1 class="display-3"><strong>Dog GIF Search!</strong></h1>
+			    <p class="lead">Choose from the buttons below to select related Dog GIFs. You can add a category if you don't see one you like!</p>
+			</div>
+	    </div>
+	    <div class="container">
+	    	<div class="row">
+	    		<div class="col-12 button-display">
+	    		</div>
+				<div class="col-12 form-display">
+		    		<form class="form-inline-center">
+						<label class="sr-only" for="inlineFormInput">find more dogs!</label>
+						<input type="text" id="new-topic" name="new-text" placeholder="find more dogs!">
+						<button type="submit" class="btn btn-success add-button">Add</button>
+	    			</form>
+	    		</div>
+	    		<div class="col-12">
+	    			<div class="row gif-display">
+	    				
+	    			</div>
+	    		</div>
+	    	</div>
+	    	
+	    </div>
+		
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/javascript/gifButtons.js"></script>
+	<script type="text/javascript" src="assets/javascript/buttonDisplay.js"></script>
+	<script type="text/javascript" src="assets/javascript/controller.js"></script>
+</body>
+</html>

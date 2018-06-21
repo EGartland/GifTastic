@@ -1,0 +1,39 @@
+.jumbotron {
+    background-color: rgb(124, 61, 240) !important;
+}
+.header {
+	color: white;
+	text-align: center;
+}
+
+.topic-button {
+  	display: block;
+  	padding: 0 15px;
+  	margin: 5px 5px;
+}
+
+.form-display {
+	margin: 10px auto;
+	padding: auto 50%;
+	text-align: center;
+}
+
+.add-button {
+	margin: auto 10px;
+}
+
+.gif-div {
+	display: inline;
+}
+
+.image-gif {
+    padding: 0 15px;
+    margin: 20px 0;
+}
+
+.rating {
+	display: block;
+	max-width: 200px;
+}
+
+
